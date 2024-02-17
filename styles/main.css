@@ -7,6 +7,7 @@
 }
 .container {
   margin: 50px 140px;
+  margin-top: 200px;
 }
 nav {
   display: flex;
@@ -169,3 +170,46 @@ div img {
     display: flex;
 }
 /* achievement section */
+.achivement-section-info{
+    text-align: center;
+}
+.achivement-section-title{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.achivement-section-descrip{
+font-size: 20px;
+color: slategray;
+
+margin: 20px 450px;
+
+}
+
+
+
+.achivement-boxes-align{
+    display: flex;
+    justify-content: space-evenly;
+}
+.achivement-boxes{
+    text-align: center;
+    border: 2px solid orange;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+.achivement-title{
+    font-weight: 700;
+    font-size: 50px;
+}
+.achivement-descrip{
+font-weight: 500;
+font-size: 20px;
+color: slategrey;
+}
+.achivement-icons{
+    width: 50%;
+    margin-top: 30px;
+}
+/* Achievement sections completed */
+/* sponsor section  */
