@@ -12,7 +12,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 140px;
+ padding: 100px 150px;
+ 
 }
 .nav-title {
   font-size: 30px;
@@ -29,6 +30,8 @@ nav ul {
 
 .banner-section{
     background-color: whitesmoke;
+  
+  
 }
 .banner-info{
     text-align: center;
@@ -54,5 +57,14 @@ color: bisque;
 font-weight: 500;
 font-size: 1.2vw;
 background-color: #ff900e;
-margin-bottom: 30px;
+margin-bottom: 20px;
 }
+.banner-img{
+    margin: 50px 140px;
+}
+div img{
+    width: 100%;
+}
+/* banner-section-done */
+
+/* feature section starts... */
