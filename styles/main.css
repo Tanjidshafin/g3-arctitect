@@ -12,8 +12,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
- padding: 100px 150px;
- 
+  padding: 100px 150px;
 }
 .nav-title {
   font-size: 30px;
@@ -28,78 +27,145 @@ nav ul {
 
 /* banner section */
 
-.banner-section{
-    background-color: whitesmoke;
-  
-  
+.banner-section {
+  background-color: whitesmoke;
 }
-.banner-info{
-    text-align: center;
+.banner-info {
+  text-align: center;
 }
-.banner-title{
-    font-size: 3vw;
-    font-weight: 700;
-    margin: 0 35vw;
+.banner-title {
+  font-size: 3vw;
+  font-weight: 700;
+  margin: 0 35vw;
 }
-.banner-descrip{
-font-size: 1vw;
+.banner-descrip {
+  font-size: 1vw;
 
-
-margin: 0 22vw;
-color: slategray;
-margin-bottom: 1.5vw;
-margin-top: 1.5vw;
+  margin: 0 22vw;
+  color: slategray;
+  margin-bottom: 1.5vw;
+  margin-top: 1.5vw;
 }
-.banner-btn{
-border: none;
-padding: 15px 20px;
-color: bisque;
-font-weight: 500;
-font-size: 1.2vw;
-background-color: #ff900e;
-margin-bottom: 20px;
-border-radius: 5px;
+.banner-btn {
+  border: none;
+  padding: 15px 20px;
+  color: bisque;
+  font-weight: 500;
+  font-size: 1.2vw;
+  background-color: #ff900e;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
-.banner-img{
-    margin: 50px 140px;
+.banner-img {
+  margin: 50px 140px;
 }
-div img{
-    width: 100%;
+div img {
+  width: 100%;
 }
 /* banner-section-done */
 
 /* second section starts... */
-.quick-features-section{
-    display: flex;
-   justify-content: space-between;
-   
-   align-items: center;
-   margin: 50px 180px;
+.quick-features-section {
+  display: flex;
+  justify-content: space-between;
 
+  align-items: center;
+  margin: 50px 180px;
 }
-.quick-features-images{
-   display: flex;
- 
-   flex-wrap: wrap;
-   gap: 15px;
-  
- margin-right: 50px;
+.quick-features-images {
+  display: flex;
 
+  flex-wrap: wrap;
+  gap: 15px;
+
+  margin-right: 50px;
 }
-.quick-features-images img{
-    width: 45%;
+.quick-features-images img {
+  width: 45%;
 }
 
-.quick-feature-title{
-font-size: 3vw;
-font-weight: 700;
+.quick-feature-title {
+  font-size: 3vw;
+  font-weight: 700;
 }
-.quick-feature-descrip{
-font-size: 1vw;
-color: slategrey;
-margin-top: 10px;
-margin-bottom: 20px;
+.quick-feature-descrip {
+  font-size: 1vw;
+  color: slategrey;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 /* quick feature section completed */
 
 /* feature list section */
+.features-section {
+  margin-right: 20vw;
+  margin-bottom: 20px;
+  margin: 0;
+}
+.alignment-of-feature-section {
+  display: flex;
+
+  align-items: center;
+  margin: 50px 140px;
+}
+.features-section-title {
+  border-left: 3px solid #ff900e;
+  padding-left: 20px;
+  font-size: 2vw;
+  font-weight: 700;
+  margin-right: 400px;
+}
+.features-section-descrip {
+  font-size: 15px;
+  color: slategray;
+  margin: 15px;
+  margin-right: 100px;
+}
+
+.alignment-of-features {
+  margin: 0 30px;
+}
+.features-info {
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-top: 20px;
+  margin-right: 7vw;
+}
+.features-title {
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.features-descrip {
+  font-size: 12px;
+  color: slategray;
+  margin-right: 50px;
+}
+.feature-img {
+  width: 50%;
+  position: relative;
+}
+.btn-align {
+  text-align: center;
+  margin-bottom: 100px;
+  position: absolute;
+  bottom: -90px;
+  left: -200px;
+}
+.feature-btn {
+  background-color: #ff900e;
+  border: none;
+  font-size: 50px;
+  margin: 0 10vw;
+  color: white;
+  padding: 30px 30px;
+}
+.feature-btn-2nd-term{
+    font-size: 30px;
+}
+.experience-btn-align{
+    display: flex;
+}
+/* achievement section */
