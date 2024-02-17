@@ -78,7 +78,7 @@ div img {
   display: flex;
 
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
 
   margin-right: 50px;
 }
@@ -165,197 +165,230 @@ div img {
   padding: 30px 30px;
   border: 3px solid #ff900e;
 }
-.feature-btn-2nd-term{
-    font-size: 30px;
+/* responsive */
+.btn-align-responsive{
+  
+  display: none;
+
 }
-.experience-btn-align{
-    display: flex;
+.feature-btn-2nd-term {
+  font-size: 30px;
+}
+.experience-btn-align {
+  display: flex;
 }
 /* achievement section */
-.achivement-section-info{
-    text-align: center;
+.achivement-section-info {
+  text-align: center;
 }
-.achivement-section-title{
-    font-size: 50px;
-    font-weight: 700;
-
+.achivement-section-title {
+  font-size: 50px;
+  font-weight: 700;
 }
-.achivement-section-descrip{
-font-size: 20px;
-color: slategray;
+.achivement-section-descrip {
+  font-size: 20px;
+  color: slategray;
 
-margin: 20px 450px;
-
+  margin: 20px 450px;
 }
 
-
-
-.achivement-boxes-align{
-    display: flex;
-    justify-content: space-evenly;
+.achivement-boxes-align {
+  display: flex;
+  justify-content: space-evenly;
 }
-.achivement-boxes{
-    text-align: center;
-    border: 2px solid orange;
-    padding: 20px 40px;
-    margin-top: 20px;
+.achivement-boxes {
+  text-align: center;
+  border: 2px solid orange;
+  padding: 20px 40px;
+  margin-top: 20px;
 }
-.achivement-title{
-    font-weight: 700;
-    font-size: 50px;
+.achivement-title {
+  font-weight: 700;
+  font-size: 50px;
 }
-.achivement-descrip{
-font-weight: 500;
-font-size: 20px;
-color: slategrey;
+.achivement-descrip {
+  font-weight: 500;
+  font-size: 20px;
+  color: slategrey;
 }
-.achivement-icons{
-    width: 50%;
-    margin-top: 30px;
+.achivement-icons {
+  width: 50%;
+  margin-top: 30px;
 }
 /* Achievement sections completed */
 /* sponsor section  */
 
-.sponsor-section{
-    text-align: center;
-    margin-top: 300px;
+.sponsor-section {
+  text-align: center;
+  margin-top: 300px;
 }
-.sponsor-section-title{
-    font-size: 50px;
-    font-weight: 700;
-    
+.sponsor-section-title {
+  font-size: 50px;
+  font-weight: 700;
 }
-.sponsor-section-descrip{
-    font-size: 20px;
-    color: slategray;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    margin: 20px 450px;
+.sponsor-section-descrip {
+  font-size: 20px;
+  color: slategray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  margin: 20px 450px;
 }
-.sponsors-alignment{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
+.sponsors-alignment {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.sponsors-alignment img{
-    width: 12%;
-    margin-top: 30px;
-} 
+.sponsors-alignment img {
+  width: 12%;
+  margin-top: 30px;
+}
 /* 
 sponsor section completed */
-footer{
-    margin: 50px 180px; 
-    text-align: center;
-    margin-top: 200px;
-    background-color: slategrey;
-    padding: 40px 40px;
+footer {
+  margin: 50px 180px;
+  text-align: center;
+  margin-top: 200px;
+  background-color: slategrey;
+  padding: 40px 40px;
 }
-footer p{
-    font-size: 25px;
+footer p {
+  font-size: 25px;
 }
-   
+
 /* footer section completed */
 
 /* full website is complete without responsive....its  time for responsive session */
 
-.banner-btn:hover{
-    background-color: transparent;
-    color: orange;
-    transition: all 300ms ease-in-out;
-    cursor: pointer;
-    
-    border: 3px solid orange;
+.banner-btn:hover {
+  background-color: transparent;
+  color: orange;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+
+  border: 3px solid orange;
 }
-.banner-section,.quick-features-section{
+.banner-section
+{
+  display: none;
+}
+
+/* button clicking effect completed successfully */
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0;
+  }
+  .quick-features-section{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .quick-features-images{
+   margin: 0; 
+   margin-left: 7vw;
+   
+   
+  }
+  .quick-features-info{
+    margin: 0 10vw;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .quick-feature-title{
+    font-size: 9vw;
+  }
+  .quick-feature-descrip{
+    font-size: 18px;
+  }
+  .banner-btn{
+    font-size: 3vw;
+  }
+
+
+  .achivement-boxes-align {
+    display: flex;
+    flex-direction: column;
+    margin: 0 6vw;
+  }
+  .achivement-section-descrip {
+    margin: 0;
+    margin-top: 3vw;
+  }
+  .sponsor-section {
+    margin: 0;
+  }
+  .sponsor-section-descrip {
+    margin: 0;
+  }
+  footer {
+    margin: 0;
+    margin-top: 17vw;
+  }
+  footer p {
+    font-size: 2vw;
+  }
+  .sponsor-section {
+    margin-top: 17vw;
+  }
+  .sponsor-section-descrip {
+    margin: 10vw;
+  }
+  .sponsors-alignment {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .features-info {
+    margin: 0;
+  }
+  .features-title {
+    font-size: 3vw;
+  }
+  .features-descrip {
+    margin: 0;
+  }
+  .btn-align {
     display: none;
-}
-
- /* button clicking effect completed successfully */
-
-
- @media screen and (max-width: 576px) {
-    .container{
-        margin: 0;
-    }
-    .achivement-boxes-align{
-        display: flex;
-        flex-direction: column;
-        margin: 0 6vw;
-    }
-    .achivement-section-descrip{
-        margin: 0;
-        margin-top:3vw ;
-    }
-    .sponsor-section{
-        margin: 0;
-       
-    }
-    .sponsor-section-descrip{
-        margin: 0;
-    }
-    footer{
-        margin: 0;
-        margin-top: 17vw;
-    }
-    footer p{
-        font-size: 2vw;
-    }
-    .sponsor-section{
-        margin-top: 17vw;
-    }
-    .sponsor-section-descrip{
-        margin: 10vw;     
-    }
-    .sponsors-alignment{
-        display: flex;
-        flex-wrap: wrap;
-        
-       
-    }
-    .features-info{
-        margin: 0;
-        
-    }
-    .features-title{
-        font-size: 3vw;
-    }
-    .features-descrip{
-        margin: 0;
-    }
-    .btn-align {
-        display: none;
-    }
-    .sponsors-alignment img{
-        width: 40%;
-    }
-    .alignment-of-feature-section{
-        margin: 0;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 30px;
-    }
-    .features-section{
-        text-align: center;
-        margin: 0 3vw;
-    }
-    .features-section-title{
-        margin: 0;
-        font-size: 5vw;
-    }
-    .features-section-descrip{
-        margin: 0;
-        font-size: 3vw;
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-    }
-    .features-info{
-margin-bottom: 10px;
-    }
-    .achivement-section-descrip{
-        margin: 0 3vw;
-    }
+  }
+  .sponsors-alignment img {
+    width: 40%;
+  }
+  .alignment-of-feature-section {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .features-section {
+    text-align: center;
+    margin: 0 3vw;
+  }
+  .features-section-title {
+    margin: 0;
+    font-size: 5vw;
+  }
+  .features-section-descrip {
+    margin: 0 10vw;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .features-info {
+    margin-bottom: 10px;
+  }
+  .achivement-section-title{
+    font-size: 9vw;
+  }
+  .achivement-section-descrip {
+    margin: 0 10vw;
+  }
+  .achivement-icons {
+    width: 25%;
+  }
+  .btn-align-responsive{
+    display: grid;
+    margin: 20px;
     
-
- }
+  }
+ 
+}
