@@ -58,6 +58,7 @@ font-weight: 500;
 font-size: 1.2vw;
 background-color: #ff900e;
 margin-bottom: 20px;
+border-radius: 5px;
 }
 .banner-img{
     margin: 50px 140px;
@@ -67,4 +68,38 @@ div img{
 }
 /* banner-section-done */
 
-/* feature section starts... */
+/* second section starts... */
+.quick-features-section{
+    display: flex;
+   justify-content: space-between;
+   
+   align-items: center;
+   margin: 50px 180px;
+
+}
+.quick-features-images{
+   display: flex;
+ 
+   flex-wrap: wrap;
+   gap: 15px;
+  
+ margin-right: 50px;
+
+}
+.quick-features-images img{
+    width: 45%;
+}
+
+.quick-feature-title{
+font-size: 3vw;
+font-weight: 700;
+}
+.quick-feature-descrip{
+font-size: 1vw;
+color: slategrey;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+/* quick feature section completed */
+
+/* feature list section */
