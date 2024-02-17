@@ -1,3 +1,4 @@
+/* navbar section */
 * {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -11,6 +12,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 50px 140px;
 }
 .nav-title {
   font-size: 30px;
@@ -21,4 +23,36 @@ nav ul li {
 nav ul {
   display: flex;
   gap: 35px;
+}
+
+/* banner section */
+
+.banner-section{
+    background-color: whitesmoke;
+}
+.banner-info{
+    text-align: center;
+}
+.banner-title{
+    font-size: 3vw;
+    font-weight: 700;
+    margin: 0 35vw;
+}
+.banner-descrip{
+font-size: 1vw;
+
+
+margin: 0 22vw;
+color: slategray;
+margin-bottom: 1.5vw;
+margin-top: 1.5vw;
+}
+.banner-btn{
+border: none;
+padding: 15px 20px;
+color: bisque;
+font-weight: 500;
+font-size: 1.2vw;
+background-color: #ff900e;
+margin-bottom: 30px;
 }
