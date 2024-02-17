@@ -243,3 +243,13 @@ color: slategrey;
 } 
 /* 
 sponsor section completed */
+footer{
+    margin: 50px 180px; 
+    text-align: center;
+    margin-top: 200px;
+    background-color: slategrey;
+    padding: 40px 40px;
+}
+footer p{
+    font-size: 25px;
+}
