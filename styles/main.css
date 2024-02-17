@@ -213,3 +213,33 @@ color: slategrey;
 }
 /* Achievement sections completed */
 /* sponsor section  */
+
+.sponsor-section{
+    text-align: center;
+    margin-top: 300px;
+}
+.sponsor-section-title{
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.sponsor-section-descrip{
+    font-size: 20px;
+    color: slategray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    margin: 20px 450px;
+}
+.sponsors-alignment{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.sponsors-alignment img{
+    width: 12%;
+    margin-top: 30px;
+} 
+/* 
+sponsor section completed */
