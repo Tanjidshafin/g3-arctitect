@@ -27,7 +27,7 @@ nav ul {
 }
 
 /* banner section */
-.banner-img-responsive{
+.banner-img-responsive {
   display: none;
 }
 .banner-section {
@@ -168,10 +168,8 @@ div img {
   border: 3px solid #ff900e;
 }
 /* responsive */
-.btn-align-responsive{
-  
+.btn-align-responsive {
   display: none;
-
 }
 .feature-btn-2nd-term {
   font-size: 30px;
@@ -271,80 +269,77 @@ footer p {
   border: 3px solid orange;
 }
 
-
 /* button clicking effect completed successfully */
 
 @media screen and (max-width: 576px) {
   .container {
     margin: 0;
   }
-  
 
-.nav-title{
-  margin-top: 10vw;
-  font-weight: 700;
-  margin-bottom: 5vw;
-}
- nav{
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
- }
- nav ul li{
-  text-align: center;
- }
- nav ul{
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  gap: 5px;
-  margin-bottom: 30px;
-  
- }
-.banner-title{
-  font-size: 9vw;
-  
-  margin: 0 5vw;
-}
-.banner-descrip{
-  font-size: 3vw;
-  margin: 0 3vw;
-  margin: 2vw ;
-}
-.banner-img{
-  display: none;
-}
-banner-img-responsive{
-  display: contents;
-}
- 
-  .quick-features-section{
+  .nav-title {
+    margin-top: 10vw;
+    font-weight: 700;
+    margin-bottom: 5vw;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    text-align: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 5px;
+    margin-bottom: 30px;
+  }
+  .banner-info {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10vw;
+  }
+  .banner-title {
+    font-size: 9vw;
+    font-weight: 400;
+    margin: 0 5vw;
+  }
+  .banner-descrip {
+    font-size: 3vw;
+    margin: 0 3vw;
+    margin: 2vw;
+  }
+  .banner-img {
+    display: none;
+  }
+
+  .quick-features-section {
     margin: 0;
     display: flex;
     flex-direction: column;
   }
-  .quick-features-images{
-   margin: 0; 
-   margin-left: 7vw;
-   
-   
+  .quick-features-images {
+    margin: 0;
+    margin-left: 7vw;
   }
-  .quick-features-info{
+  .quick-features-info {
     margin: 0 10vw;
     text-align: center;
     margin-top: 30px;
   }
-  .quick-feature-title{
+  .quick-feature-title {
     font-size: 9vw;
   }
-  .quick-feature-descrip{
+  .quick-feature-descrip {
     font-size: 18px;
   }
-  .banner-btn{
+  .banner-btn {
     font-size: 3vw;
   }
-
 
   .achivement-boxes-align {
     display: flex;
@@ -416,7 +411,7 @@ banner-img-responsive{
   .features-info {
     margin-bottom: 10px;
   }
-  .achivement-section-title{
+  .achivement-section-title {
     font-size: 9vw;
   }
   .achivement-section-descrip {
@@ -425,10 +420,8 @@ banner-img-responsive{
   .achivement-icons {
     width: 25%;
   }
-  .btn-align-responsive{
+  .btn-align-responsive {
     display: grid;
     margin: 20px;
-    
   }
- 
 }
