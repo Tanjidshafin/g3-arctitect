@@ -268,4 +268,94 @@ footer p{
     
     border: 3px solid orange;
 }
+.banner-section,.quick-features-section{
+    display: none;
+}
+
  /* button clicking effect completed successfully */
+
+
+ @media screen and (max-width: 576px) {
+    .container{
+        margin: 0;
+    }
+    .achivement-boxes-align{
+        display: flex;
+        flex-direction: column;
+        margin: 0 6vw;
+    }
+    .achivement-section-descrip{
+        margin: 0;
+        margin-top:3vw ;
+    }
+    .sponsor-section{
+        margin: 0;
+       
+    }
+    .sponsor-section-descrip{
+        margin: 0;
+    }
+    footer{
+        margin: 0;
+        margin-top: 17vw;
+    }
+    footer p{
+        font-size: 2vw;
+    }
+    .sponsor-section{
+        margin-top: 17vw;
+    }
+    .sponsor-section-descrip{
+        margin: 10vw;     
+    }
+    .sponsors-alignment{
+        display: flex;
+        flex-wrap: wrap;
+        
+       
+    }
+    .features-info{
+        margin: 0;
+        
+    }
+    .features-title{
+        font-size: 3vw;
+    }
+    .features-descrip{
+        margin: 0;
+    }
+    .btn-align {
+        display: none;
+    }
+    .sponsors-alignment img{
+        width: 40%;
+    }
+    .alignment-of-feature-section{
+        margin: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .features-section{
+        text-align: center;
+        margin: 0 3vw;
+    }
+    .features-section-title{
+        margin: 0;
+        font-size: 5vw;
+    }
+    .features-section-descrip{
+        margin: 0;
+        font-size: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .features-info{
+margin-bottom: 10px;
+    }
+    .achivement-section-descrip{
+        margin: 0 3vw;
+    }
+    
+
+ }
