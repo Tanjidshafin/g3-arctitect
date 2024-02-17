@@ -27,7 +27,9 @@ nav ul {
 }
 
 /* banner section */
-
+.banner-img-responsive{
+  display: none;
+}
 .banner-section {
   background-color: whitesmoke;
 }
@@ -268,10 +270,7 @@ footer p {
 
   border: 3px solid orange;
 }
-.banner-section
-{
-  display: none;
-}
+
 
 /* button clicking effect completed successfully */
 
@@ -279,6 +278,47 @@ footer p {
   .container {
     margin: 0;
   }
+  
+
+.nav-title{
+  margin-top: 10vw;
+  font-weight: 700;
+  margin-bottom: 5vw;
+}
+ nav{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+ }
+ nav ul li{
+  text-align: center;
+ }
+ nav ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 5px;
+  margin-bottom: 30px;
+  
+ }
+.banner-title{
+  font-size: 9vw;
+  
+  margin: 0 5vw;
+}
+.banner-descrip{
+  font-size: 3vw;
+  margin: 0 3vw;
+  margin: 2vw ;
+}
+.banner-img{
+  display: none;
+}
+banner-img-responsive{
+  display: contents;
+}
+ 
   .quick-features-section{
     margin: 0;
     display: flex;
